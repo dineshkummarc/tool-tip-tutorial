@@ -1,0 +1,59 @@
+body{
+font-size:0.85em;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+background-image:url(http://www.kriesi.at/wp-content/themes/playground/images/playground.jpg);
+background-repeat:no-repeat;
+}
+
+.nr1 a{
+color:#333;
+width:150px;
+line-height:150px;
+background-color:#ccc;
+display:block;
+text-decoration:none;
+position:absolute;
+top:230px;
+left:100px;
+text-align:center;
+padding:3px 0px;
+}
+
+.nr2 a{
+color:#333;
+width:150px;
+line-height:150px;
+background-color:#ccc;
+display:block;
+text-decoration:none;
+position:absolute;
+top:290px;
+right:500px;
+text-align:center;
+padding:3px 0px;
+}
+
+a:hover{
+color:#fff;
+background-color:#666;
+}
+
+.tooltip{
+position:absolute;
+left:-2000px;
+background-color:#dedede;
+padding:5px;
+border:1px solid #fff;
+width:550px;
+height:250px;
+}
+
+.tooltip p{
+margin:0;
+padding:0;
+color:#fff;
+background-color:#222;
+padding:5px 5px;
+width:540px;
+height:240px;
+}
